@@ -1,6 +1,6 @@
 package org.example.java2002;
 
-public class now {
+public class Now {
 
 
         public static void main(String[] args) {

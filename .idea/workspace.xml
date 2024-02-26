@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7281407-9f84-47f0-bdc9-89a1843ebef7" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java2002/now.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java2102/newnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java2102/today.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java2202/square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java2202/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/java2602/Java2602.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java2002/now.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java2002/Now.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java2102/newnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java2102/NewNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java2102/today.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java2102/Today.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/java2202/square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/java2202/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +41,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Calculator.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.Java2602.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Square.executor": "Run",
+    "Application.calc.executor": "Run",
     "Application.newnum.executor": "Run",
     "Application.now.executor": "Run",
+    "Application.org.example._2024_02_22.square.executor": "Run",
     "Application.square.executor": "Run",
     "Application.today.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -51,19 +58,20 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Windows/Desktop/150124/Java/JavaLessons/Java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.square">
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java1902.HelloWorld" />
+  <component name="RunManager" selected="Application.Java2602">
+    <configuration name="Java2602" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java2602.Java2602" />
       <module name="Java1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.java1902.*" />
+          <option name="PATTERN" value="org.example.java2602.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="newnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java2102.newnum" />
+    <configuration name="NewNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java2102.NewNum" />
       <module name="Java1" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="now" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java2002.now" />
+    <configuration name="Now" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java2002.Now" />
       <module name="Java1" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java2202.square" />
+    <configuration name="Square" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java2202.Square" />
       <module name="Java1" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="today" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.java2102.today" />
+    <configuration name="Today" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.java2102.Today" />
       <module name="Java1" />
       <extension name="coverage">
         <pattern>
@@ -125,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.square" />
-        <item itemvalue="Application.newnum" />
-        <item itemvalue="Application.today" />
-        <item itemvalue="Application.now" />
-        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.Java2602" />
+        <item itemvalue="Application.Today" />
+        <item itemvalue="Application.NewNum" />
+        <item itemvalue="Application.Now" />
+        <item itemvalue="Application.Square" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708419523938</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="1">
+      <option name="closed" value="true" />
+      <created>1708591216385</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1708591216385</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

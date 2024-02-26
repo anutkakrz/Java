@@ -1,6 +1,6 @@
 package org.example.java2102;
 
-public class newnum {
+public class NewNum {
     public static void main(String[] args) {
         //Дано 5 чисел:  а=10,  b=15, c= 20, d=25, e=30.
 //Переприсвоить и вывести их на экран в том же порядке(a,b,c,d,e), НО, таким образом,
@@ -94,7 +94,8 @@ public class newnum {
 //                System.out.println("error");
 //
 //        }
-//        В диапазоне от 0 до 100  вывести на экран первые 25 чётных чисел, исключая “десятки”.
+//        В диапазоне от 0 до 100  вывести на экран первые 25 чётных чисел,
+//        исключая “десятки”.
         int count = 0;
         for (int i = 0; i <= 100; i++) {
             if (count == 25) {
@@ -106,5 +107,6 @@ public class newnum {
             }
         }
     }
+
 }
 
